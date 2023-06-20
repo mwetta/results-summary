@@ -15,7 +15,7 @@
 
 main {
     width: 100vw;
-    height: 40vh;
+    height: 45vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -91,7 +91,7 @@ li {
     flex: 5;
 }
 
-.circle {
+.score {
     flex: 2;
 }
 
@@ -100,6 +100,17 @@ li {
     font-weight: 800;
 }
 
+
+#score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: black 1px solid;
+    height: 200px;
+    width: 200px;
+    border-radius: 300px;
+}
 
 footer {
     position: fixed;
