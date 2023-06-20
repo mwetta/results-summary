@@ -94,5 +94,16 @@ ul {
     border-radius: 10px;
     height: 40px;
     align-items: center;
-    justify-content: space-between;
+    margin-left: 0;
+    padding-left: 10px;
+}
+
+.icon {}
+
+.reaction {
+    flex: 5;
+}
+
+.score {
+    flex: 2;
 }
