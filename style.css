@@ -61,23 +61,6 @@ body {
     flex-direction: column;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    padding: 5px;
-    text-align: center;
-    font-size: 11px;
-    text-align: center;
-    background-color: var(--persian-plum);
-    width: 100vw;
-    box-shadow: 0px 0px 5px #989898;
-    z-index: 1;
-}
-
-footer a {
-    color: hsl(228, 45%, 44%);
-}
 
 p {
     font-size: 18px;
@@ -95,6 +78,10 @@ ul {
     height: 40px;
     align-items: center;
     margin-left: 0;
+    padding-left: 0;
+}
+
+li {
     padding-left: 10px;
 }
 
@@ -104,6 +91,30 @@ ul {
     flex: 5;
 }
 
-.score {
+.circle {
     flex: 2;
+}
+
+.large {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    text-align: center;
+    font-size: 11px;
+    text-align: center;
+    background-color: var(--persian-plum);
+    width: 100vw;
+    box-shadow: 0px 0px 5px #989898;
+    z-index: 1;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%);
 }
