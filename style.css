@@ -37,6 +37,7 @@ main {
 
 body {
     font-family: 'Hanken Grotesk';
+    font-size: 18px;
 }
 
 
@@ -50,7 +51,7 @@ body {
 }
 
 #result {
-    color: white;
+    color: hsl(241, 100%, 89%);
     grid-column: 1;
     align-items: center;
     padding: 10px 50px 50px 50px;
@@ -61,14 +62,10 @@ body {
     text-align: center;
 }
 
-#result h1,
-#result p {
-    color: hsl(241, 100%, 89%);
-}
-
 #result h2 {
     font-size: xx-large;
     font-weight: 500;
+    color: white;
 }
 
 #summary {
@@ -96,14 +93,16 @@ button {
 }
 
 ul {
+    box-sizing: border-box;
     display: flex;
     list-style: none;
-    border: black solid 1px;
     border-radius: 10px;
     height: 40px;
     align-items: center;
     margin-left: 0;
-    padding-left: 0;
+    padding: 0px 0px 5px 0px;
+    height: 60px;
+    font-weight: 500;
 }
 
 li {
@@ -117,15 +116,42 @@ li {
 .verbal,
 .visual {
     flex: 5;
+
+}
+
+#reaction {
+    background-color: hsla(0, 100%, 67%, .2);
+    color: hsl(0, 100%, 67%);
+}
+
+#memory {
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, .2);
+}
+
+#verbal {
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, .2);
+}
+
+#visual {
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, .2);
 }
 
 .score {
     flex: 2;
+    color: hsla(224, 30%, 27%, .6);
+}
+
+h1 {
+    font-weight: 500;
 }
 
 .large {
     font-size: 60px;
     font-weight: 800;
+    color: white;
 }
 
 
