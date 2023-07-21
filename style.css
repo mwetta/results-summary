@@ -15,7 +15,7 @@
 
 main {
     width: 100vw;
-    height: 45vh;
+    height: 30vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
